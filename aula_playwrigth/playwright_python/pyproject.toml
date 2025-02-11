@@ -1,0 +1,3 @@
+[tool.pytest.ini.options]
+addopts = '-v --alluredir= --clear-alluredir'
+filterwarnings = ['ignore::UserWarning']
