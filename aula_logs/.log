@@ -1,3 +1,8 @@
-12-02-2025 11:23 ERROR [module:(aula_logs_2) line:17]: ERROR
-12-02-2025 11:23 DEBUG [module:(aula_logs_2) line:18]: DEBUG
-12-02-2025 11:23 INFO [module:(aula_logs_2) line:19]: INFO
+2025-02-14 00:37:30,337 root DEBUG olha eu aqui
+2025-02-14 00:37:30,338 root CRITICAL test filtro
+2025-02-14 00:37:30,338 root CRITICAL diltro test
+2025-02-14 11:32:35.652 | DEBUG    | __main__:<module>:8 - DEBUG
+2025-02-14 11:32:35.652 | INFO     | __main__:<module>:9 - INFO
+2025-02-14 11:32:35.652 | WARNING  | __main__:<module>:10 - WARNING
+2025-02-14 11:32:35.652 | ERROR    | __main__:<module>:11 - ERROR
+2025-02-14 11:32:35.652 | CRITICAL | __main__:<module>:12 - CRITICAL

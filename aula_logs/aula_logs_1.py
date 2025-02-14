@@ -10,7 +10,8 @@ basicConfig(
     filename=FILE_LOG,
     filemode='a',
     encoding='utf-8',
-    format='%(asctime)s %(levelname)s [module:(%(module)s) line:%(lineno)d]: %(message)s',  # noqa E501
+    format='%(asctime)s %(levelname)s [module:(%(module)s) line:%(lineno)d]:\
+            %(message)s',  # noqa E501
     datefmt='%d-%m-%Y %H:%M',
 )
 
