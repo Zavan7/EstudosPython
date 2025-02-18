@@ -4,22 +4,27 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>index_3</title>
+
+    <style>
+      .purple {
+        font-size: 25px;
+        color: purple;
+      }
+      #cabecalho {
+        background: lightcoral;
+      }
+      .img-test {
+        width: 50px;
+      }
+      p {
+        background: rgb(169, 169, 231);
+        font-size: 20px;
+      }
+    </style>
   </head>
-  <style>
-    #cabecalho {
-      background: lightcoral;
-    }
-    .img-test {
-      width: 50px;
-    }
-    p {
-      background: rgb(169, 169, 231);
-      font-size: 20px;
-    }
-  </style>
   <body>
     <h1 id="cabecalho">Cabecalho</h1>
-    <p>Sem negrito - <b>Com negrito</b></p>
+    <p><span class="purple">Sem negrito</span> - <b>Com negrito</b></p>
     <p>Sem strrong - <strong>Com strong</strong></p>
     <p>Sem italico - <i>Com italico</i></p>
     <p>Sem enfase - <em>Com enfase</em></p>
@@ -38,7 +43,7 @@
         />
       </a>
     </p>
-    <p>Testando Del - <del>Com Del</del></p>
+    <p><span class="purple">Testando Del</span> - <del>Com Del</del></p>
     <p>Testando Insert - <ins>Com Insert</ins></p>
     <p>Testando Tag riscada - <s>Tag S</s></p>
     <p>Testando Underscore - <u>Com Underscore</u></p>
@@ -50,5 +55,40 @@
       Testando Sitação -
       <q cite="https://www.udemy.com/home/my-courses/learning/">Com Sitação</q>
     </p>
+
+    <hr />
+    <p>Testando Blockcode</p>
+    <blockquote cite="https://www.udemy.com/home/my-courses/learning/">
+      Estou testando o Blockcode aqui
+    </blockquote>
+    <p>
+      Testando sitação de um trecho de código - <br /><code>console.log</code
+      ><br /><code>print()</code>
+    </p>
+
+    <p>Abaixo um treco de código com a tag pre</p>
+    <pre>
+        function saudacao() {
+            let nome = prompt("Qual é o seu nome?");
+            if (nome) {
+              console.log("Olá, " + nome + "!");
+            } else {
+              console.log("Você não forneceu um nome.");
+            }
+          }
+          
+          let hora = new Date().getHours();
+          if (hora < 12) {
+            console.log("Bom dia!");
+          } else {
+            console.log("Boa tarde!");
+          }
+          
+      </pre
+    >
+    <div class="purple">
+      Testando a tag div, a div trabalha com bloco, acabando a div, começa um
+      novo bloco de paragrafos, spam é inline, não tem a quebra de linha
+    </div>
   </body>
 </html>
