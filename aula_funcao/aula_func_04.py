@@ -66,8 +66,8 @@ while True:
          refazer(tarefas, tarefas_refazer)
          listar(tarefas)
          continue
-     elif tarefa == 'clear':
-         os.system('clear')
+     elif tarefa == 'cls':
+         os.system('cls')
          continue
      else:
          adicionar(tarefa, tarefas)
