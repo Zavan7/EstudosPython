@@ -41,6 +41,8 @@ def refazer(tarefas, tarefas_refazer):
 
 
 def adicionar(tarefa, tarefas):
+    if tarefa == 'sair':
+        return
     print()
     tarefa = tarefa.strip()
     if not tarefa:
@@ -89,3 +91,6 @@ while True:
         comandos['adicionar']
     comando()
     salvar(tarefas, CAMINHO_ARQUIVO)
+    
+    tarefa = 'sair'
+    break
