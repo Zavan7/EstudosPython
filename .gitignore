@@ -12,3 +12,4 @@ typing_extensions==4.4.0
 .env
 dotenv
 cronograma.txt
+aula_sql/docker-compose.yml
