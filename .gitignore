@@ -13,3 +13,5 @@ typing_extensions==4.4.0
 dotenv
 cronograma.txt
 aula_sql/docker-compose.yml
+aula_sql/mysql-init/mysql-init/grant_permissions.sql
+aula_sql/mysql-init/mysql-init/init.sql
