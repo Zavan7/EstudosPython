@@ -15,3 +15,4 @@ cronograma.txt
 aula_sql/docker-compose.yml
 aula_sql/mysql-init/mysql-init/grant_permissions.sql
 aula_sql/mysql-init/mysql-init/init.sql
+aula_sql/db.sqlite3
